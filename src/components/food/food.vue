@@ -1,6 +1,6 @@
 <template>
   <transition name="move">
-    <div v-show="showFlag" class="food" ref="food">
+    <div v-show="showFlag" class="foodInfo" ref="food">
       <div class="food-content">
         <div class="img-header">
           <img :src="food.image" alt="">
@@ -150,7 +150,7 @@ export default {
 </script>
 
 <style lang="scss">
-.food {
+.foodInfo {
   position: fixed;
   top: 0;
   left: 0;
